@@ -1,0 +1,14 @@
+curve r = 2 (sin 3θ)
+(three leaved rose)
+
+syms r theta
+theta = 0:0.01:2*pi;
+r = 2*sin(3*theta);
+polarplot(theta,r)
+
+
+Cardiod given by r = 3(1 + cos θ)
+
+theta = 0:0.01:2*pi;
+r = 3*(1+cos(theta));
+polarplot(theta,r)
